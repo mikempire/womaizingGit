@@ -974,7 +974,7 @@ p, h1, h2, h3, h4 {
 }
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-  background-image: url("../../img/arrowB.svg");
+  background-image: url("../img/arrowB.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -989,7 +989,7 @@ p, h1, h2, h3, h4 {
 }
 
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-  background-image: url("../../img/arrowB.svg");
+  background-image: url("../img/arrowB.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
