@@ -1,0 +1,203 @@
+"<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Womazing</title>
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+<div class="site-container">
+  <header class="header">
+  <div class="container header__container">
+    <div class="header__logo logo">
+      <div class="logo__pic">
+        <img src="./img/logo.svg" alt="">
+      </div>
+      <div class="logo__text">
+        <a href="/">
+          <img src="./img/logo_womazing.svg" alt="">
+        </a>
+      </div>
+
+    </div>
+    <div class="header__menu">
+      <ul class="menu__list list-reset" data-menu>
+        <li class="menu__item">
+          <a href="/" class="menu__link" data-page="/">Главная</a>
+        </li>
+        <li class="menu__item">
+          <a href="shop.html" class="menu__link" data-page="shop">Магазин</a>
+        </li>
+        <li class="menu__item">
+          <a href="about.html" class="menu__link" data-page="about">О бренде</a>
+        </li>
+        <li class="menu__item">
+          <a href="contacts.html" class="menu__link" data-page="contacts">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header__phone phone">
+      <div class="phone__pic">
+        <img src="./img/phone.svg" alt="">
+      </div>
+      <span class="phone__number">+7 495 823-54-12</span>
+    </div>
+    <div class="header__cart cart__icon">
+      <a href="cart.html" class="cart__pic" data-page="cart">
+        <svg class="">
+          <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+      </a>
+      <button class="burger" aria-label="Открыть меню" data-burger="">
+        <span class="burger__line"></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+  <main class="main">
+    <section class="contacts">
+      <div class="container contacts__container">
+        <div class="contacts__title title">Контакты</div>
+        <ul class="contacts__breadcrumbs breadcrumbs__list list-reset">
+          <li class="breadcrumbs__item">
+            <a href="" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link breadcrumbs__link--current">Контакты</a>
+          </li>
+        </ul>
+        <div class="contacts__map">
+          <script type="text/javascript" charset="utf-8" async
+                  src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aff7f5461b568e3d942171ce0868bb4093211c1b69ccb0e48ab55b7010464ae07&amp;id=mymap&amp;lang=ru_RU&amp;apikey=<API-ключ"></script>
+          <div id="mymap" class="map"></div>
+        </div>
+        <ul class="contacts__list list-reset">
+          <li class="contacts__item">
+            <span class="contacts__name">Телефон</span>
+            <a href="" class="contacts__link">+7 495 823-54-12</a>
+          </li>
+          <li class="contacts__item">
+            <span class="contacts__name">E-mail</span>
+            <a href="" class="contacts__link">info@sitename.com</a>
+          </li>
+          <li class="contacts__item">
+            <span class="contacts__name">Адрес</span>
+            <spa class="contacts__link">г. Москва, 3-я улица Строителей, 25</spa>
+          </li>
+        </ul>
+        <div class="contacts__form form-contacts">
+          <h3 class="form-contacts__subtitle">Напишите нам</h3>
+          <form class="form-contacts__container">
+            <label class="form-contacts__label">
+              <input type="text" placeholder="Имя" class="form-contacts__input form-contacts__name" name="name">
+            </label>
+            <label class="form-contacts__label">
+              <input type="email" placeholder="E-mail" class="form-contacts__input form-contacts__email" name="email">
+            </label>
+            <label class="form-contacts__label">
+              <input type="tel" placeholder="Телефон" class="form-contacts__input form-contacts__phone" name="tel">
+            </label>
+            <textarea rows="10" cols="45" name="text" class="form-contacts__textarea" placeholder="Сообщение"></textarea>
+            <button type="submit" class="form-contacts__submit btn-reset">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="popup__wrapper" >
+        <div class="popup">
+          <div class="popup__result">
+            <div class="popup__text">Отлично! Мы скоро вам перезвоним.</div>
+            <button class="popup__btn btn-reset">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__info">
+        <div class="footer__logo logo">
+          <div class="logo__pic">
+            <img src="./img/logo.svg" alt="">
+          </div>
+          <div class="logo__text">
+            <img src="./img/logo_womazing.svg" alt="">
+          </div>
+        </div>
+        <div class="footer__copy">
+          <p>© Все права защищены <br>
+            Политика конфиденциальности <br>
+            Публичная оферта</p>
+        </div>
+      </div>
+      <div class="footer__menu menu">
+        <ul class="menu__list list-reset menu__list--footer">
+          <li class="menu__item">
+            <a href="" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link shop">Магазин</a>
+            <ul class="shop__menu list-reset">
+              <li class="shop__menu--item">
+                <a href="">Пальто</a>
+              </li>
+              <li class="shop__menu--item">
+                <a href="">Свитшоты</a>
+              </li>
+              <li class="shop__menu--item">
+                <a href="">Кардиганы</a>
+              </li>
+              <li class="shop__menu--item">
+                <a href="">Толстовки</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">О бренде</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__contacts contact">
+        <a href="tel:+9898999999" class="contact__phone">+7 495 823-54-12</a>
+        <a href="mailto:hello@womazing.com" class="contact__email">hello@womazing.com</a>
+        <div class="contact__social social">
+          <a href="" class="social__inst">
+            <img src="./img/inst.svg" alt="">
+          </a>
+          <a href="" class="social__facebook">
+            <img src="./img/facb.svg" alt="">
+          </a>
+          <a href="" class="social__twitter">
+            <img src="./img/twit.svg" alt="">
+          </a>
+        </div>
+        <div class="contact__pay">
+          <img src="./img/visa.png" alt="" class="contact__pay--visa">
+        </div>
+      </div>
+    </div>
+
+</footer>
+
+</div>
+</body>
+
+</html>
