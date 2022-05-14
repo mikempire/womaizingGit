@@ -575,16 +575,21 @@ p, h1, h2, h3, h4 {
   -webkit-transition: background-color 0.3s, color 0.3s;
   -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
+  font: var(--font-middle);
 }
 @media (max-width: 768px) {
   .hero__btn {
-    padding: 10px 50px;
+    padding: 23px 20px;
     height: 70px;
+  }
+}
+@media (max-width: 576px) {
+  .hero__btn {
+    padding: 27px 20px;
   }
 }
 .hero__btn a {
   color: var(--color-white);
-  font: var(--font-middle);
 }
 .hero__btn:hover {
   background-color: transparent;
@@ -680,9 +685,6 @@ p, h1, h2, h3, h4 {
 .collection {
   padding-bottom: var(--big-offset);
 }
-.collection__shop {
-  display: flex;
-}
 .collection__title {
   font: var(--font-big);
   color: var(--color-black);
@@ -700,6 +702,9 @@ p, h1, h2, h3, h4 {
   -webkit-transition: background-color 0.3s, color 0.3s;
   -o-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
+  max-width: 250px;
+  text-align: center;
+  cursor: pointer;
 }
 @media (max-width: 1440px) {
   .collection__btn {

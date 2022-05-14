@@ -2,209 +2,209 @@
 <html lang="ru" class="page">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#111111">
-    <title>Womazing</title>
-    <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script defer src="js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Womazing</title>
+  <link rel="preload" href="fonts/Raleway-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
 </head>
 
 <body class="page__body">
 <div class="site-container">
-    <header class="header">
-        <div class="container header__container">
-            <div class="header__logo logo">
-                <div class="logo__pic">
-                    <img src="./img/logo.svg" alt="">
-                </div>
-                <div class="logo__text">
-                    <a href="/">
-                        <img src="./img/logo_womazing.svg" alt="">
-                    </a>
-                </div>
+  <header class="header">
+  <div class="container header__container">
+    <div class="header__logo logo">
+      <div class="logo__pic">
+        <img src="img/logo.svg" alt="">
+      </div>
+      <div class="logo__text">
+        <a href="index.html">
+          <img src="img/logo_womazing.svg" alt="">
+        </a>
+      </div>
 
-            </div>
-            <div class="header__menu">
-                <ul class="menu__list list-reset" data-menu>
-                    <li class="menu__item">
-                        <a href="index.html" class="menu__link" data-page="index">Главная</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="shop.html" class="menu__link" data-page="shop">Магазин</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="about.html" class="menu__link" data-page="about">О бренде</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="contacts.html" class="menu__link" data-page="contacts">Контакты</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="header__phone phone">
-                <div class="phone__pic">
-                    <img src="./img/phone.svg" alt="">
-                </div>
-                <span class="phone__number">+7 495 823-54-12</span>
-            </div>
-            <div class="header__cart cart__icon">
-                <a href="cart.html" class="cart__pic" data-page="cart">
-                    <svg class="">
-                        <use xlink:href="img/sprite.svg#cart"></use>
-                    </svg>
-                </a>
-                <button class="burger" aria-label="Открыть меню" data-burger="">
-                    <span class="burger__line"></span>
-                </button>
-            </div>
+    </div>
+    <div class="header__menu">
+      <ul class="menu__list list-reset" data-menu>
+        <li class="menu__item">
+          <a href="index.html" class="menu__link" data-page="/">Главная</a>
+        </li>
+        <li class="menu__item">
+          <a href="/shop.html" class="menu__link" data-page="shop">Магазин</a>
+        </li>
+        <li class="menu__item">
+          <a href="/about.html" class="menu__link" data-page="about">О бренде</a>
+        </li>
+        <li class="menu__item">
+          <a href="/contacts.html" class="menu__link" data-page="contacts">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header__phone phone">
+      <div class="phone__pic">
+        <img src="img/phone.svg" alt="">
+      </div>
+      <span class="phone__number">+7 495 823-54-12</span>
+    </div>
+    <div class="header__cart cart__icon">
+      <a href="/cart.html" class="cart__pic" data-page="cart">
+        <svg class="">
+          <use xlink:href="img/sprite.svg#cart"></use>
+        </svg>
+      </a>
+      <button class="burger" aria-label="Открыть меню" data-burger="">
+        <span class="burger__line"></span>
+      </button>
+    </div>
 
+  </div>
+</header>
+
+  <main class="main">
+    <section class="cart">
+      <div class="container cart__container">
+        <div class="cart__title title">Корзина</div>
+        <ul class="cart__breadcrumbs breadcrumbs__list list-reset">
+          <li class="breadcrumbs__item">
+            <a href="" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link breadcrumbs__link--current">Корзина</a>
+          </li>
+        </ul>
+        <div class="cart__top">
+          <ul class="cart__list list-reset">
+            <il class="cart__item cart__item--product">Товар</il>
+            <il class="cart__item">Цена</il>
+            <il class="cart__item">Количество</il>
+            <il class="cart__item">Всего</il>
+          </ul>
         </div>
-    </header>
+        <div class="cart__middle">
+          <ul class="cart-middle__list cart-middle list-reset">
+            <li class="cart-middle__item cart-middle--product">
+              <button class="cart-middle__delete btn-reset">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#cross"></use>
+                </svg>
+              </button>
+              <div class="cart-middle__image">
+                <img src="img/coll1.jpg" alt="">
+              </div>
+              <p class="cart-middle__title">Футболка USA</p>
+            </li>
+            <li class="cart-middle__item">
+              <p class="cart-middle__price">$129</p>
+            </li>
+            <li class="cart-middle__item">
+              <input class="cart-middle__input" type="number" placeholder="1" value="1"></input>
+            </li>
+            <li class="cart-middle__item">
+              <p class="cart-middle__all">$129</p>
+            </li>
+          </ul>
+        </div>
+        <div class="cart__bottom">
+          <div class="cart__coupon">
+            <input type="text" class="cart__input--coupon" placeholder="Введите купон">
+            <button class="cart__add btn-reset cart__btn" type="submit">Применить купон</button>
+          </div>
+          <button class="cart__reset btn-reset cart__btn">Обновить корзину</button>
+        </div>
 
-    <main class="main">
-        <section class="cart">
-            <div class="container cart__container">
-                <div class="cart__title title">Корзина</div>
-                <ul class="cart__breadcrumbs breadcrumbs__list list-reset">
-                    <li class="breadcrumbs__item">
-                        <a href="" class="breadcrumbs__link">Главная</a>
-                    </li>
-                    <li class="breadcrumbs__item">
-                        <a class="breadcrumbs__link breadcrumbs__link--current">Корзина</a>
-                    </li>
-                </ul>
-                <div class="cart__top">
-                    <ul class="cart__list list-reset">
-                        <il class="cart__item cart__item--product">Товар</il>
-                        <il class="cart__item">Цена</il>
-                        <il class="cart__item">Количество</il>
-                        <il class="cart__item">Всего</il>
-                    </ul>
-                </div>
-                <div class="cart__middle">
-                    <ul class="cart-middle__list cart-middle list-reset">
-                        <li class="cart-middle__item cart-middle--product">
-                            <button class="cart-middle__delete btn-reset">
-                                <svg class="">
-                                    <use xlink:href="img/sprite.svg#cross"></use>
-                                </svg>
-                            </button>
-                            <div class="cart-middle__image">
-                                <img src="img/coll1.jpg" alt="">
-                            </div>
-                            <p class="cart-middle__title">Футболка USA</p>
-                        </li>
-                        <li class="cart-middle__item">
-                            <p class="cart-middle__price">$129</p>
-                        </li>
-                        <li class="cart-middle__item">
-                            <input class="cart-middle__input" type="number" placeholder="1" value="1"></input>
-                        </li>
-                        <li class="cart-middle__item"
-                        <p class="cart-middle__all">$129</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="cart__bottom">
-                    <div class="cart__coupon">
-                        <input type="text" class="cart__input--coupon" placeholder="Введите купон">
-                        <button class="cart__add btn-reset cart__btn" type="submit">Применить купон</button>
-                    </div>
-                    <button class="cart__reset btn-reset cart__btn">Обновить корзину</button>
-                </div>
-
-                <div class="cart__total cart-total">
-                    <div class="cart-total__top">
-                        <p class="cart-total__pre">Подытог:</p>
-                        <span>$129</span>
-                    </div>
-                    <div class="cart-total__bottom">
-                        <div class="cart-total__total">
-                            <p>Итого:</p>
-                            <span>$129</span>
-                        </div>
-                        <button class="cart-total__btn btn-reset">Оформить заказ</button>
-                    </div>
-                </div>
+        <div class="cart__total cart-total">
+          <div class="cart-total__top">
+            <p class="cart-total__pre">Подытог:</p>
+            <span>$129</span>
+          </div>
+          <div class="cart-total__bottom">
+            <div class="cart-total__total">
+              <p>Итого:</p>
+              <span>$129</span>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container footer__container">
-            <div class="footer__content">
-                <div class="footer__info">
-                    <div class="footer__logo logo">
-                        <div class="logo__pic">
-                            <img src="./img/logo.svg" alt="">
-                        </div>
-                        <div class="logo__text">
-                            <img src="./img/logo_womazing.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="footer__copy">
-                        <p>© Все права защищены <br>
-                            Политика конфиденциальности <br>
-                            Публичная оферта</p>
-                    </div>
-                </div>
-                <div class="footer__menu menu">
-                    <ul class="menu__list list-reset menu__list--footer">
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link shop">Магазин</a>
-                            <ul class="shop__menu list-reset">
-                                <li class="shop__menu--item">
-                                    <a href="">Пальто</a>
-                                </li>
-                                <li class="shop__menu--item">
-                                    <a href="">Свитшоты</a>
-                                </li>
-                                <li class="shop__menu--item">
-                                    <a href="">Кардиганы</a>
-                                </li>
-                                <li class="shop__menu--item">
-                                    <a href="">Толстовки</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">О бренде</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="" class="menu__link">Контакты</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__contacts contact">
-                    <a href="tel:+9898999999" class="contact__phone">+7 495 823-54-12</a>
-                    <a href="mailto:hello@womazing.com" class="contact__email">hello@womazing.com</a>
-                    <div class="contact__social social">
-                        <a href="" class="social__inst">
-                            <img src="./img/inst.svg" alt="">
-                        </a>
-                        <a href="" class="social__facebook">
-                            <img src="./img/facb.svg" alt="">
-                        </a>
-                        <a href="" class="social__twitter">
-                            <img src="./img/twit.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="contact__pay">
-                        <img src="./img/visa.png" alt="" class="contact__pay--visa">
-                    </div>
-                </div>
-            </div>
+            <button class="cart-total__btn btn-reset">Оформить заказ</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <div class="footer__info">
+        <div class="footer__logo logo">
+          <div class="logo__pic">
+            <img src="img/logo.svg" alt="">
+          </div>
+          <div class="logo__text">
+            <img src="img/logo_womazing.svg" alt="">
+          </div>
+        </div>
+        <div class="footer__copy">
+          <p>© Все права защищены <br>
+            Политика конфиденциальности <br>
+            Публичная оферта</p>
+        </div>
+      </div>
+      <div class="footer__menu menu">
+        <ul class="menu__list list-reset menu__list--footer">
+          <li class="menu__item">
+            <a href="" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link shop">Магазин</a>
+            <ul class="shop__menu list-reset">
+              <li class="shop__menu--item">
+                <a href="">Пальто</a>
+              </li>
+              <li class="shop__menu--item">
+                <a href="">Свитшоты</a>
+              </li>
+              <li class="shop__menu--item">
+                <a href="">Кардиганы</a>
+              </li>
+              <li class="shop__menu--item">
+                <a href="">Толстовки</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">О бренде</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__contacts contact">
+        <a href="tel:+9898999999" class="contact__phone">+7 495 823-54-12</a>
+        <a href="mailto:hello@womazing.com" class="contact__email">hello@womazing.com</a>
+        <div class="contact__social social">
+          <a href="" class="social__inst">
+            <img src="img/inst.svg" alt="">
+          </a>
+          <a href="" class="social__facebook">
+            <img src="img/facb.svg" alt="">
+          </a>
+          <a href="" class="social__twitter">
+            <img src="img/twit.svg" alt="">
+          </a>
+        </div>
+        <div class="contact__pay">
+          <img src="img/visa.png" alt="" class="contact__pay--visa">
+        </div>
+      </div>
+    </div>
 
-    </footer>
+</footer>
 
 </div>
 </body>
